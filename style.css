@@ -1,0 +1,102 @@
+/*Table Style section start*/
+table {
+    background-color: #33a99d;
+    padding: 25px;
+    width: 100%;
+   
+}
+tbody {
+    background-color: #fff;
+    text-align: center;
+}
+
+thead tr th.dom {
+    background-color: #8c24eb;
+    color: #fff;
+}
+thead tr th.dom:hover {
+    background-color: #9b48e9;
+}
+thead tr th.dom p {
+    font-size: 11px;
+}
+thead tr th.glo {
+    background-color: #f39c0f;
+    color: #fff;
+}
+thead tr th.glo:hover {
+    background-color: #eba83c;
+}
+thead tr th.glo p {
+    font-size: 11px;
+}
+thead tr th.ent {
+    background-color: #e93455;
+    color: #fff;
+}
+thead tr th.ent:hover {
+    background-color: #ee5d77;
+}
+thead tr th.ent p {
+    font-size: 11px;
+}
+
+th, td {
+    padding: 15px;
+}
+
+tbody tr td.domprice h1 {
+    display: inline;
+    font-size: 75px;
+}
+
+tbody tr td.gloprice h1 {
+    display: inline;
+    font-size: 75px;
+}
+tbody tr td.entprice h1 {
+    display: inline;
+    font-size: 75px;
+}
+
+tbody tr td.domprice {
+    color: #8c24eb;
+}
+
+tbody tr td.gloprice {
+    color: #f39c0f;
+}
+
+tbody tr td.entprice {
+    color: #e93455;
+}
+
+tbody tr td.dom {
+    background-color: #8c24eb;
+}
+
+tbody tr td.glo {
+    background-color: #f39c0f;
+}
+
+tbody tr td.ent {
+    background-color: #e93455;
+}
+tbody tr td.dom:hover {
+    background-color: #9b48e9;
+}
+
+tbody tr td.glo:hover {
+    background-color: #eba83c;
+}
+
+tbody tr td.ent:hover {
+    background-color: #ee5d77;
+}
+
+body>h1, body footer {
+    background-color: #33a99d;
+    padding: 10px;
+    text-align: center;
+}
+/*Table Style section end*/
